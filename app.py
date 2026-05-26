@@ -379,6 +379,8 @@ with col_tl:
         xaxis=dict(
             tickfont=dict(color=BLACK_LBL, size=12, family="DM Sans", weight="bold"),
             showgrid=False, zeroline=False,
+            tickmode="array",
+            tickvals=anos_evo,
         ),
         annotations=[dict(
             x=0.5, y=1.12, xref="paper", yref="paper",
